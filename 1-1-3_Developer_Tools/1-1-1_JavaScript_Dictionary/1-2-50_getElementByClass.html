@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByClassName() </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">HTML DOM Document getElementsByClassName()</h1>
+    
+
+                        <!--            Defination      -->                      
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">* The getElementsByClassName() method returns a collection of elements with a specified class name(s).</p>
+    <p class="defination">* The getElementsByClassName() method returns an HTMLCollection.</p>
+    <p class="defination">* The getElementsByClassName() property is read-only.</p>
+
+                        <!--            Syntax:     -->                      
+    <p class="paragraph"><br>Syntax:</p>
+    <p class="defination1">document.getElementsByClassName(classname)</p>
+    <p class="defination1"> --- classname = The class name of the elements. </p>
+    <p class="defination1"> --- classname = Search for multiple class names separated by spaces like "test demo". </p>
+
+                      <!--            Examples:          -->
+    <br><p class="paragraph"> Examples:   </p>
+
+    <div class="example">     
+    <p class="sub-paragraph">const collection = document.getElementsByClassName("example");</p>
+    <a class="explain"> - Get all elements with class="example":</a>  
+    <a>&#160 </a><a>&#160 </a>
+
+    <p class="sub-paragraph">const collection = document.getElementsByClassName("example color");</p>
+    <a class="explain"> - Get all elements with both the "example" and "color" classes:</a>  
+    <a>&#160 </a><a>&#160 </a>
+
+    <p class="sub-paragraph">let numb = document.getElementsByClassName("example").length;</p>
+    <a class="explain"> - Number of elements with class="example":</a>  
+    <a>&#160 </a><a>&#160 </a>
+
+    <p class="sub-paragraph">const collection = document.getElementsByClassName("example");</p>
+    <a class="explain"> - Change the background color of all elements with class="example":</a>  
+    <p class="sub-paragraph">for (let i = 0; i < collection.length; i++) {</p><a></a>
+    <p class="sub-paragraph">  collection[i].style.backgroundColor = "red";</p><a></a>
+    <p class="sub-paragraph"> }</p><a></a>
+    <a>&#160 </a><a>&#160 </a>
+
+
+  </div> 
+
+
+
+  </div> 
+</div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

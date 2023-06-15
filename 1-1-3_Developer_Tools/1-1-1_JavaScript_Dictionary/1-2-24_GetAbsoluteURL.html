@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Once </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">GetAbsoluteUrl()</h1><br>
+    
+    <p class="paragraph"><br>Defination:</p>
+     
+      <p class="defination">*  This JavaScript command gets you the actual URL of a web address, especially if it is contained in a string. It just takes the URL string and it gives back the address with all the queries and other elements removed..  </p>
+      <p class="defination">* Given a relative URL, the task is to convert the relative URL to an absolute URL. Here, the base URL is also given. 2 approaches are discussed here, the first example has the baseURL provided by the user and the second takes it from the URL of the page.   </p>
+
+
+
+                    <!--            Examples:       -->
+      <p class="paragraph"><br> Example:   </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">var getAbsoluteUrl = (function() {var a;return function(url) {if(!a) a = document.createElement('a');a.href = url;return a.href;};})();// UsagegetAbsoluteUrl('/something'); //</p>
+        <a class="explain"> </a>  
+        <p>&#160</p><p>&#160</p>
+        <p class="sub-paragraph"> function add() {</p>
+        <a class="explain"> </a> 
+        <p class="sub-paragraph">&#160 &#160 a += 10;</p>
+        <a class="explain">  </a>  
+  
+        <p class="sub-paragraph">}</p><a></a>
+        <p class="sub-paragraph">var startFunc = _.once(add);</p>
+        <p>&#160</p><p>&#160</p>
+        <a class="explain"> </a>     
+        <p class="sub-paragraph"> startFunc(); </p>
+        <a class="explain"> </a>  
+
+     
+     
+      </div> 
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

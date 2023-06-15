@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onload Event</title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">onload Event</h1>
+    
+
+                        <!--            Defination      -->                      
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">* The onload event occurs when an object has been loaded. </p>
+    <p class="defination">* onload is most often used within the 'body' element to execute a script once a web page has completely loaded all content (including images, script files, CSS files, etc.)..</p>
+    <p class="defination">* The onload event can be used to check the visitor's browser type and browser version, and load the proper version of the web page based on the information. </p>
+    <p class="defination">* The onload event can also be used to deal with cookies .</p>
+
+                        <!--            Syntax:     -->                      
+    <p class="paragraph"><br>Syntax:</p>
+    <p class="defination1"> - <x><</x>element onload="myScript"> - in HTML</p>
+    <p class="defination1"> - object.onload = function(){myScript};  - in JavaScript</p>
+    <p class="defination1"> - object.addEventListener("load", myScript); - In JavaScript, using the addEventListener() method: </p>
+
+                      <!--            Examples:          -->
+    <br><p class="paragraph"> Examples:   </p>
+
+    <div class="example">     
+    <p class="sub-paragraph"><x><</x>body onload="myFunction()"></p>
+    <a class="explain"> - Execute a JavaScript immediately after a page has been loaded:</a>  
+
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph"><x><</x>img src="w3javascript.gif" onload="loadImage()" width="100" height="132"></p>
+    <a class="explain"> - Using onload on an <x> <</x>img> element. </a>  
+
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph"><x><</x>body onload="checkCookies()"></p>
+    <a class="explain">  - Using the onload event to deal with cookies. </a> 
+
+
+  </div> 
+  </div> 
+</div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

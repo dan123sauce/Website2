@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array.Filter() </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">Array.Filter()</h1>
+    
+    <p class="paragraph"><br>Defination:</p>
+                         <!--            Defination      -->
+  
+      <p class="defination">* The filter() method creates a new array filled with elements that pass a test provided by a function.  </p>
+      <p class="defination">* The filter() method does not execute the function for empty elements.   </p>
+      <p class="defination">* The filter() method does not change the original array.  </p><br>
+
+
+
+                    <!--            Syntax:       -->
+      <p class="paragraph"> Syntax - array.filter(function(currentValue, index, arr), thisValue)   </p>
+      <div class="example">  
+        <p class="sub-paragraph">* function() -  A function to run for each array element.</p>
+        <a class="sub-paragraph">* currentValue -  The value of the current element.</a>  
+        <p class="sub-paragraph">* index -  The index of the current element.  </p>
+        <p class="sub-paragraph">* arr - The array of the current element.  </p>
+        <p class="sub-paragraph">* thisValue -  A value passed to the function. </p>
+      </div><br>     
+
+
+                    <!--            Examples:       -->
+      <p class="paragraph"> Example:   </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">const ages = [32, 33, 16, 40];</p>
+        <a class="explain"> Return the values in ages[] that are over a specific number:</a>  
+     
+        <p class="sub-paragraph"> const result = ages.filter(checkAdult);</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph">function checkAdult(age) {</p>
+        <a class="explain"> 32,33,40</a>  
+     
+        <p class="sub-paragraph">&#160 &#160   return age >= 18;</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> }</p>
+        <a class="explain"> </a>
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+
+        <p class="sub-paragraph"><<x>p><<x>input type="number" id="ageToCheck" value="30"><<x>/p> </p>
+        <a class="explain"> Return the values in ages[] that are over a specific number:</a>  
+     
+        <p class="sub-paragraph"><<x>button onclick="myFunction()"><x>Try it<<x>/button> </p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"><<x>p id = "demo"><<x>/p> </p>
+        <a class="explain"></a>  
+        <a>&#160 </a><a>&#160 </a>
+        <p class="sub-paragraph"><<x>script><x> </p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> const ages = [32, 33, 12, 40];</p>
+        <a class="explain"> </a>
+
+
+        <p class="sub-paragraph">function checkAge(age) {</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> &#160 &#160 return age > document.getElementById("ageToCheck").value;</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> } </p>
+        <a class="explain"> </a>
+
+        <p class="sub-paragraph">function myFunction() {</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> &#160 &#160 document.getElementById("demo").innerHTML = ages.filter(checkAge);</p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"> } </p>
+        <a class="explain"> </a>
+        <p class="sub-paragraph"><<x>/script><x> </p>
+
+
+
+     
+     
+      </div> 
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

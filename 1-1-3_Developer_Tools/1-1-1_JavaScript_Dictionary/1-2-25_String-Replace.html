@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String.replace() </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">String.replace()</h1><br>
+    
+    <p class="paragraph"><br>Defination:</p>
+                         <!--            Defination      -->
+      <p class="defination">*  The replace command lets you change the text in a string. It searches the string for the text you want to be replaced and switches it out for what you want. The search pattern can be either a simple text string or a regular expression. The command then returns this new string, leaving the original string unmodified. This can be used to search and replace certain substrings from a long and iterative main string.  </p>
+      <p class="defination">* The replace() method searches a string for a value or a regular expression.   </p>
+      <p class="defination">* The replace() method returns a new string with the value(s) replaced.  </p>
+      <p class="defination">* The replace() method does not change the original string.   </p>
+
+
+                    <!--            Syntax:       -->
+      <p class="paragraph"><br>Syntax - string.replace(searchValue, newValue)</p>
+     
+      <p class="defination">* searchValue -  The value, or regular expression, to search for.  </p>
+      <p class="defination">* newValue -  The new value (to replace with).  </p>
+
+
+                    <!--            Examples:       -->
+      <p class="paragraph"><br> Example:   </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">let text = "Visit Microsoft!";</p>
+        <a class="explain"> Sets the Variable 'text' to the string value "Visit Microsoft!"</a>  
+     
+        <p class="sub-paragraph"> let result = text.replace("Microsoft", "Apple");</p>
+        <a class="explain">replace() searches a string for a value, and returns a new string with the specified value(s) replaced: </a>
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <p class="sub-paragraph">let text = "Mr Blue has a blue house and a blue car";</p>
+        <a class="explain">replace() searches a string for a value, and returns a new string with the specified value(s) replaced:  </a>  
+  
+        <p class="sub-paragraph">let result = text.replace(/blue/g, "red");</p>
+        <a class="explain">Mr Blue has a red house and a red car. </a>  
+
+        <p>&#160</p><p>&#160</p>
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <p class="sub-paragraph">let text = "Mr Blue has a blue house and a blue car";</p>
+        <a class="explain">A global, case-insensitive replacement: </a>  
+  
+        <p class="sub-paragraph">let result = text.replace(/blue/gi, "red");</p>
+        <a class="explain">Mr red has a red house and a red car. </a>  
+
+        <p>&#160</p><p>&#160</p>
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <a>--------------------------------------------------------------------------------------------------------------</a> 
+        <p class="sub-paragraph">let text = "Mr Blue has a blue house and a blue car";</p>
+        <a class="explain"> A function to return the replacement text:</a>  
+  
+        <p class="sub-paragraph">let result = text.replace(/blue|house|car/gi, function (x) {</p>
+        <a class="explain">Mr BLUE has a BLUE HOUSE and a BLUE CAR.</a> 
+
+        <p class="sub-paragraph">return x.toUpperCase();;</p>
+        <a class="explain"> </a>  
+  
+        <p class="sub-paragraph">}); {</p>
+        <a class="explain"> </a>  
+
+        <p>&#160</p><p>&#160</p>
+
+
+
+
+     
+     
+      </div> 
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

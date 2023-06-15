@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Array map() </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">JavaScript Array map()</h1><br>
+    
+    <p class="paragraph"><br>Defination:</p>
+     
+      <p class="defination">* The map() command lets you loop through an array or collection. </p>
+      <p class="defination">* In JavaScript, the map() method builds an array by running a given function on each member of the parent array. </p>
+      <p class="defination">* It’s an approach that doesn’t change anything. The map() method is often used to traverse over an array and run a function on each entry. </p>
+      <p class="defination">* This is perfect for running the same command over a large array.</p>
+      <p class="defination">* map() creates a new array from calling a function for every array element.</p>
+      <p class="defination">* map() does not execute the function for empty elements.</p>
+      <p class="defination">* map() does not change the original array.</p>
+
+                    <!--            Syntax:        -->
+      <p class="paragraph"><br> Syntax:   </p>
+      <p class="defination">array.map(function(currentValue, index, arr), thisValue)</p>
+
+
+
+                    <!--            Examples: - NOTE        -->
+      <p class="paragraph"><br> Examples:   </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">const numbers = [4, 9, 16, 25];</p>
+        <a class="explain"> - The Array.map() method creates a new array from the results of calling a function for every element.</a>  
+        <p class="sub-paragraph">document.getElementById("demo").innerHTML = numbers.map(Math.sqrt);</p>
+        <a class="explain"> </a> 
+        <p>&#160 </p><p>&#160  </p>
+        <a>-------------------------------------------------------------------------------------------------</a>
+        <a>-------------------------------------------------------------------------------------------------</a>
+        
+        <p class="sub-paragraph">const numbers = [65, 44, 12, 4];</p>
+        <a class="explain"> - Multiply every element in the array with 10: </a>  
+        <p class="sub-paragraph">const newArr = numbers.map(myFunction)</p>
+        <a class="explain"> </a>         <p>&#160 </p><p>&#160  </p>
+
+        <p class="sub-paragraph">document.getElementById("demo").innerHTML = newArr;</p><a></a>
+        <p>&#160 </p><p>&#160</p>
+          <p class="sub-paragraph">function myFunction(num) {</p>
+          <a class="explain"> </a>        
+        <p class="sub-paragraph"> &#160 &#160 return num * 10; {</p>
+        <a class="explain"> </a> 
+        <p class="sub-paragraph"> } </p>
+          <a class="explain"> </a> 
+        <p>&#160 </p><p>&#160  </p>
+
+      </div> 
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

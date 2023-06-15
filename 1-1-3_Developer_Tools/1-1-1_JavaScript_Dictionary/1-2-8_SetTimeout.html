@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2. Basic Input / Output'
+    </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">SetTimeout() </h1><br>
+    
+    <p class="paragraph"><br>Defination:</p>
+     
+      <p class="defination">* The setTimeout function is a native JavaScript function. SetTimeout lets you automatically run commands at a specific time without user input. This simple JS command just requires the command you want to run and when you want to run it. It sets a timer (a countdown set in milliseconds) for the execution of a callback function, calling the function upon completion of the timer.</p>
+      <p class="defination">* You must express the time in milliseconds, but you can use any JavaScript statement as the command. For example, the following code runs the myfunction command after 5 seconds..</p>
+      <p class="defination">* The only exception is that you can call the window.print() method in the browser to print the content of the current window.</p>
+      <p class="defination">* 1 second = 1000 milliseconds.</p>
+      <p class="defination">* The setTimeout() is executed only once. Use the clearTimeout() method to prevent the function from starting.</p>
+      <p class="defination">* Use the clearTimeout() method to prevent the function from starting.</p>
+                      <!--            Syntax           -->
+    <p class="paragraph"><br> Syntax:     </p>
+
+    <div class="example">  
+      <p class="sub-paragraph">setTimeout(command, time);</p>
+        <a class="explain">  </a>  
+        <p class="sub-paragraph">clearTimeout(myTimeout);;</p>
+        <a class="explain"> - You can to stop the execution by calling clearTimeout(): </a>  
+
+  </div> 
+
+                      <!--            Examples           -->
+      <p class="paragraph"><br> Example:     </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">setTimeout(myfunction, 5000);</p>
+          <a class="explain">  - this will timeout 'myfunction' in 5 seconds.</a>  
+
+          <a>------------------------------------</a><a>------------------------------------</a>
+        <p class="sub-paragraph">const myTimeout = setTimeout(myGreeting, 5000);;</p>
+          <a class="explain">  - Wait 5 seconds for the greeting.</a>
+
+          <a>------------------------------------</a><a>------------------------------------</a>
+        <p class="sub-paragraph">setTimeout(myfunction, 5000);</p>
+        <a class="explain">  - Use clearTimeout(myTimeout) to prevent myGreeting from running:</a>  
+        <p class="sub-paragraph">function myStopFunction() {</p><a></a>
+
+        <p class="sub-paragraph">  clearTimeout(myTimeout);</p><a></a>
+
+        <p class="sub-paragraph">  }</p><a></a>
+
+
+
+    </div> 
+
+     
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

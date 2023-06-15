@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript parseInt()</title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">JavaScript parseInt()</h1>
+
+                          <!--            Defination:          -->
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">* The parseInt method parses a value as a string and returns the first integer.</p>
+    <p class="defination">* A radix parameter specifies the number system to use:  </p>
+    <p class="defination">* 2 = binary, 8 = octal, 10 = decimal, 16 = hexadecimal.  </p>
+    <p class="defination">* If radix is omitted, JavaScript assumes radix 10. If the value begins with "0x", JavaScript assumes radix 16.  </p>
+
+
+                            <!--            Syntax:          -->
+    <p class="paragraph"><br>Syntax:</p>
+    <p class="defination">parseInt(string, radix)  </p>
+    <p class="defination">--- value =  The value to be parsed. </p>
+    <p class="defination">--- radix = A number (2 to 36) specifying the number system.  </p>
+
+                      <!--            Examples:          -->
+        <br><p class="paragraph"> Examples:   </p>
+
+        <div class="example">  
+          <p class="sub-paragraph">parseInt("10");</p>
+            <a class="explain"> Output  = 10</a>  
+          
+          <p class="sub-paragraph">parseInt("10.00"); </p>
+          <a class="explain"> Output  = 10</a>    
+
+          <p class="sub-paragraph">parseInt("10.33");</p>
+          <a class="explain"> Output  = 10</a>  
+          
+          <p class="sub-paragraph">parseInt("34 45 66"); </p>
+          <a class="explain"> Output  = 34</a>  
+          
+          <p class="sub-paragraph">parseInt(" 60 "); </p>
+          <a class="explain"> Output  = 60</a>  
+
+          <p class="sub-paragraph">parseInt("40 years");</p>
+          <a class="explain"> Output  = 40</a>  
+          
+          <p class="sub-paragraph">parseInt("He was 40"); </p>
+          <a class="explain"> Output  = NaN</a>      
+          
+
+
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+   
+          
+          <p class="sub-paragraph">parseInt("10", 10);;</p>
+          <a class="explain"> Output  = 10</a>  
+        
+        <p class="sub-paragraph">parseInt("010");; </p>
+        <a class="explain"> Output  = 10</a>    
+
+        <p class="sub-paragraph">parseInt("10", 8);;</p>
+        <a class="explain"> Output  = 8</a>  
+        
+        <p class="sub-paragraph">parseInt("0x10");; </p>
+        <a class="explain"> Output  = 16</a>  
+        
+        <p class="sub-paragraph">parseInt("10", 16); </p>
+        <a class="explain"> Output  = 16</a>  
+ 
+        </div> 
+
+
+
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

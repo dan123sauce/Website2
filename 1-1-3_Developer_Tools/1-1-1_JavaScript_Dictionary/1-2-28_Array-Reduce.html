@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array.Filter() </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">Array.Reduce()</h1>
+    
+    <p class="paragraph"><br>Defination:</p>
+                         <!--            Defination      -->
+  
+      <p class="defination">* The reduce() method executes a reducer function for array element.  </p>
+      <p class="defination">* The reduce() method returns a single value: the function's accumulated result.  </p>
+      <p class="defination">* The reduce() method does not execute the function for empty array elements.  </p>
+      <p class="defination">* The reduce() method does not change the original array. </p><br>
+
+
+
+                    <!--            Syntax:       -->
+      <p class="paragraph"> Syntax - array.reduce(function(total, currentValue, currentIndex, arr), initialValue)   </p>
+ 
+        <p class="defination">* function() -  A function to run for each array element.</p>
+        <a class="defination">* total - The initialValue, or the previously returned value of the function.</a>  
+        <p class="defination">* currentValue - The value of the current element.  </p>
+        <p class="defination">* currentIndex -  The index of the current element. </p>
+        <p class="defination">* arr - The array of the current element.  </p><br>
+   
+
+
+                    <!--            Example - Subtract all numbers in an array:       -->
+      <p class="paragraph"> Example 1: - Subtract all numbers in an array:      </p>
+      <p class="defination1">const numbers = [175, 50, 25];</p>
+      <p class="defination1">document.getElementById("demo").innerHTML = numbers.reduce(myFunc); </p>
+      <p class="defination1">function myFunc(total, num) { </p>
+      <p class="defination1">&#160 &#160     return total - num;</p> 
+      <p class="defination1"> }</p>
+
+
+      <!--            Example - Round all the numbers and display the sum:       -->
+      <p class="paragraph"> Example 2: - Round all the numbers and display the sum:      </p>
+      <p class="defination1"> const numbers = [15.5, 2.3, 1.1, 4.7]; </p>
+      <p class="defination1">document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0); </p>
+      <p class="defination1">function getSum(total, num) { </p>
+      <p class="defination1">&#160 &#160     return total + Math.round(num);</p> 
+      <p class="defination1"> }</p>
+
+
+
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

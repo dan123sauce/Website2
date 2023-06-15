@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML DOM Document querySelector()</title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">HTML DOM Document querySelector()</h1>
+    
+
+                        <!--            Defination      -->                      
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">* The querySelector() method returns the first element that matches a CSS selector. </p>
+    <p class="defination">* To return all matches (not only the first), use the querySelectorAll() instead. </p>
+    <p class="defination">* Both querySelector() and querySelectorAll() throw a SYNTAX_ERR exception if the selector(s) is invalid. </p>
+
+
+                        <!--            Syntax:     -->                      
+    <p class="paragraph"><br>Syntax:</p>
+    <p class="defination1">document.querySelector(CSS selectors) </p>
+    <p class="defination1"> - selectors = One or more CSS selectors.</p>
+    <p class="defination1"> - selectors = CSS selectors select HTML elements based on id, classes, types, attributes, values of attributes etc.</p>
+    <p class="defination1"> - selectors = For multiple selectors, separate each selector with a comma.</p>
+
+                      <!--            Examples:          -->
+    <br><p class="paragraph"> Examples:   </p>
+
+    <div class="example">     
+    <p class="sub-paragraph">document.querySelector("p");</p>
+    <a class="explain"> - Get the first 'p' element:</a>  
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">document.querySelector(".example");</p>
+    <a class="explain"> - Get the first element with class="example": </a>  
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">document.querySelector("p.example");</p>
+    <a class="explain"> - Get the first 'p' element in with class="example":  </a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">document.querySelector("#demo").innerHTML = "Hello World!";</p>
+    <a class="explain"> - Change the text of the element with id="demo":  </a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">document.querySelector("div > p");</p>
+    <a class="explain"> - Select the first 'p' element with the parent is a 'div' element. </a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">Select the first 'a' element that has a "target" attribute:</p>
+    <a class="explain"> - document.querySelector("a[target]");  </a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph"> <x><</x>h3>A h3 element<x><</x>h3> </p>
+    <a class="explain"> - Select the first <x><</x>h3>or the first <x><</x>h4>  </a> 
+    <p class="sub-paragraph"> <x><</x>h4>A h4 element<x><</x>h4> </p> <a></a>
+    <p class="sub-paragraph"> document.querySelector("h3, h4").style.backgroundColor = "red"; </p> 
+    <a class="explain"> - Changes the background of h3 to red </a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph"> <x><</x>h4>A h4 element<x><</x>h4> </p>
+    <a class="explain"> - Select the first <x><</x>h3>or the first <x><</x>h4>  </a> 
+    <p class="sub-paragraph"> <x><</x>h3>A h3 element<x><</x>h3> </p> <a></a>
+    <p class="sub-paragraph"> document.querySelector("h3, h4").style.backgroundColor = "red"; </p> 
+    <a class="explain"> - Changes the background of h4 to red </a> 
+
+  </div> 
+
+
+
+  </div> 
+</div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

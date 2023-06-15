@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ClearTimeout() and ClearInterval()
+    </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">ClearTimeout() and ClearInterval() </h1><br>
+    
+    <p class="paragraph"><br>Defination:</p>
+     
+      <p class="defination">* If you will use either settimeout or setinterval, you will want to use their associated clear command as well. ClearTimeout and ClearInterval take the variable name for a set command and then delete it from memory.</p>
+      <p class="defination">* The number id value returned by the setTimeout() function is stored in a variable and it’s passed into the clearTimeout() function to clear the timer. Similarly, the same process is carried out for setInterval() and clearInterval().</p>
+      <p class="defination">* The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.</p>
+      <p class="defination">* If you want to execute the function only once, use the setTimeout() method instead.</p>
+      <p class="defination">* Use the clearTimeout() method to prevent the function from starting.</p>
+
+                      <!--            Syntax           -->
+      <p class="paragraph"><br> Syntax     </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">myInterval = setInterval(function, milliseconds);</p>
+          <a class="explain"> - Syntax to set up interval  </a>  
+          <p class="sub-paragraph">clearInterval($timer);</p>
+          <a class="explain"> - To clear the interval timer </a>  
+      </div> 
+                      <!--            Examples           -->
+      <p class="paragraph"><br> Example: of Setup     </p>
+
+      <div class="example">  
+        <p class="sub-paragraph">$timer = setInterval(command, 5000);</p>
+          <a class="explain"> - To set timmer  </a>  
+          <p class="sub-paragraph">clearInterval($timer);</p>
+          <a class="explain"> - You can to stop the execution by calling clearTimeout(): </a>  
+
+          <p class="paragraph"><br> Example: of Digital Clock     </p><p>.</p>
+ 
+        <p class="sub-paragraph">const myInterval=setInterval(myTimer, 1000);</p>
+          <a class="explain">  - Declares variable 'myTimer' with the interval of 1 second.</a>
+        <p class="sub-paragraph">function myTimer() {;</p>
+        <a class="explain">  - Sets up function 'myTimer' </a>
+        <p class="sub-paragraph"> &#160 const date = new Date();</p>
+        <a class="explain">  - used to declare 'date' to the value of the current time. </a>
+        <p class="sub-paragraph"> &#160  document.getElementById("demo")</p>
+        <a class="explain">  - this and next line is used to write to the HTML file with the id 'demo' </a>
+        <p class="sub-paragraph">.innerHTML = date.toLocaleTimeString();</p>
+        <a class="explain">  - the current time. </a>
+        <p class="sub-paragraph">}</p>
+        <a class="explain">  - end of function .</a>
+        <p class="sub-paragraph">  function myStopFunction() {</p>
+        <a class="explain">  - New function called 'myStopFunction'.</a>
+        <p class="sub-paragraph">clearInterval(myInterval);</p>
+        <a class="explain">  - Stops the clock time.</a>  
+        <p class="sub-paragraph">}</p><a> </a><a> </a>
+        <a class="explain">  - .</a>
+        
+    </div> 
+
+     
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

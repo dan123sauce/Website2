@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Error Objects</title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">JavaScript Error Objects</h1>
+
+                          <!--            Defination:          -->
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable things.</p>
+    <p class="defination">The try statement allows you to define a block of code to be tested for errors while it is being executed.</p>
+    <p class="defination">The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.</p>
+    <p class="defination">The JavaScript statements try and catch come in pairs:</p>
+    <p class="defination">The throw statement allows you to create a custom error. The exception can be a JavaScript String, a Number, a Boolean or an Object:</p>
+
+                          <!--            Types          -->
+    <p class="paragraph"><br>Types:</p>
+    <p class="defination1">The try statement -  defines a code block to run (to try).</p>
+    <p class="defination1">The catch statement - defines a code block to handle any error.</p>
+    <p class="defination1">The finally statement - defines a code block to run regardless of the result.</p>
+    <p class="defination1">The throw statement - defines a custom error.</p>
+
+
+ 
+                      <!--            Examples:          -->
+        <br><p class="paragraph"> Examples:   </p>
+
+        <div class="example">  
+          <p class="sub-paragraph">try {</p>
+          <a class="explain"> - JavaScript catches adddlert as an error, and executes the catch code to handle it.</a>  
+          
+          <p class="sub-paragraph">&#160 &#160 adddlert("Welcome guest!");</p>
+          <a class="explain"> </a>  
+
+          <p class="sub-paragraph">}</p>
+          <a class="explain"> </a>  
+
+          <p class="sub-paragraph">catch(err) {</p>
+            <a class="explain"> </a>   
+          <p class="sub-paragraph"> &#160 &#160  document.getElementById("demo").innerHTML = err.message;</p>
+          <a class="explain"> </a>  
+            
+          <p class="sub-paragraph">}</p>
+          <a class="explain"> </a>  
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <p class="sub-paragraph">try {}</p>
+            <a class="explain"> - Block of code to try</a>  
+        
+          <p class="sub-paragraph">catch(err) {}</p>
+            <a class="explain"> - Block of code to handle errors</a>   
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <p class="sub-paragraph">    if(x < 5) throw "too low";</p>
+            <a class="explain"> - throw a text</a>  
+            
+          <p class="sub-paragraph"> if(isNaN(x)) throw "not a number"; </p>
+            <a class="explain"> - throw a number</a>   
+            <a>--------------------------------------------------------------------------------------------------------------</a> 
+            <a>--------------------------------------------------------------------------------------------------------------</a> 
+          <p class="sub-paragraph">try {}</p>
+            <a class="explain"> - Block of code to try</a>  
+            
+          <p class="sub-paragraph">catch(err) {}</p>
+            <a class="explain"> - Block of code to handle errors</a>   
+
+          <p class="sub-paragraph">finally {}</p>
+            <a class="explain"> - Block of code to be executed regardless of the try / catch result</a>   
+        </div> 
+
+
+
+    </div> 
+  </div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

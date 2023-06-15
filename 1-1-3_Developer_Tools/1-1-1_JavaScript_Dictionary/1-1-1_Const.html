@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Defination of 'const'
+    </title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">Const</h1><br>
+      
+    <p class="paragraph"><br>Defination:</p>
+      
+      <p class="defination">*Declaring a variable using Const is used when the variable should not be changed </p> 
+
+    <p class="paragraph"><br>Use const when you declare:</p>
+    <div class="example">    
+      <p class="sub-paragraph">* A new Object</p><a></a>  
+      <p class="sub-paragraph">* A new Function</p><a></a> 
+      <p class="sub-paragraph">* A new Array</p>
+    </div>    
+        <!--            Example of const Objects                -->
+    <p class="paragraph"><br>Example: Object:</p>    
+    <div class="example">   
+
+      <a class="sub-paragraph"> const var = document.querySelector("input");</a>
+      <a class="explain">-  takes the value in the input object and stores in the variable called 'var'.</a>
+
+      <a class="sub-paragraph"> const var = document.querySelector(".class-a .class-b");</a>
+      <a class="explain">-  takes the value in the object that holds the class-a and class=b and stores in the variable called 'var'</a>
+    
+      <p class="sub-paragraph"> const var = document.getElementsByClassName('btn')[0];</p>
+      <a class="explain">-  Get all elements with class='btn' and stores it in 'var'.</a>
+
+      <p class="sub-paragraph"> const buttons = document.querySelectorAll('button')</p>
+      <a class="explain">-  anything with the (element) of button Saves in the variable 'buttons'.</a>
+      
+      <p class="sub-paragraph"> const gameBoard =  document.querySelector('#gameboard')  </p>  
+      <a class="explain">-  This will look at entire document with anything with the ID of 'gameboard'.</a>
+
+      <p class="sub-paragraph">  const squares = document.querySelectorAll('.grid div')</p>     
+      <a class="explain">-  This will look at entire document with anything with the class of 'grid div' and store in variable 'squares'.</a>
+    </div>   
+
+            <!--            Example of const Functions                -->
+    <p class="paragraph"><br> Example: Function</p>
+    <div class="example">  
+      <p class="sub-paragraph">const updateDetails = (url, title, author) => { </p>
+      <a class="explain">- using we values from the generateMeme funcion.</a>
+      <p> FROM   generateMeme funcion</p>
+       --- memeImage.setAttribute("src", url);         /* url value */    <br>
+       --- memeTitle.innerHTML = title;                    /* Title value */  <br>
+       --- memeAuthor.innerHTML = `Meme by: ${author}`;    /* Author value I added 'Meme by:' */  <br>
+
+    </div> 
+
+            <!--            Example of const Arrays                -->
+    <p class="paragraph"><br> Example: Array</p>
+
+    <div class="example">  
+      <p class="sub-paragraph"> const todoList = [{</p>
+        <a class="explain">- Declares the start of the array named 'todoList'.</a>
+      <p class="sub-paragraph"> name:'dan', dueDate: '2022-12-22'},</p> 
+        <a class="explain">- The values of the array using the keys name and dueDate'.</a>
+      <p class="sub-paragraph"> name:'peter', dueDate: '2023-2-5'},</p> 
+        <a class="explain">- Adding values of the array using the keys name and dueDate'.</a>  
+
+   
+
+      <p class="sub-paragraph"><br>const startCells = ['','','','','','','','','',<br></p>
+        <a class="explain">- This is storing 9 '''s in the variable 'startCells.'.</a>  
+
+    </div>      
+  </div>  
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+

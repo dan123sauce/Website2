@@ -1,0 +1,273 @@
+
+
+
+/*                ---     JavaScript Dictionary         */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+
+  background: lightblue url("../../../1-1-0 Images/WallPaper/gray1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  h1 {
+    text-align: center; font-size: 50px;
+   }
+ /*                                ----   Header CSS   -----                   */
+ 
+  header {
+     background: linear-gradient(to right , rgb(185, 207, 221), #eff0f4);
+      grid-row: 1/2;
+      grid-column: 1/9;
+      }
+ 
+
+ 
+  header h1 {
+     line-height: 140%;
+     padding: 1rem;
+     margin-bottom: 0px;
+     margin-top: 20px;
+     z-index: 100;
+     }
+ 
+  .title {
+    padding: 500px;
+       color: blue;
+ 
+       }
+ 
+ 
+   nav {
+     font-weight: bold;
+     grid-row: 2/3;
+     grid-column: 1/-1;
+     position: sticky;
+     top: 0;
+     background-color: #424242;
+     z-index: 100;
+     }
+ 
+  .navbar {
+      overflow: hidden;
+      background-color: #333;
+      color: black;
+ 
+      padding-left: 1500px;
+      }
+ 
+ .navbar a:hover, .dropdown:hover .dropbtn {
+     background-color: red;
+     }
+ 
+ /*                                ----   Font CSS   -----                   */
+ 
+   .p3 { font-family: Fantasy, copperplate; font-size:20px}
+   .p4 {font-size:20px}
+   .p2 {margin-top: -10px}
+ 
+   .font {font-family: Fantasy, copperplate; padding-left: 30px}
+   .copperPlate {font-family: Fantasy, copperplate}
+ 
+ /*                                ----   Video CSS   -----                   */
+ 
+ .video_class {z-index: 1;}
+ 
+ .large-image {
+    position: relative;
+    width: 100%;
+    background: black;
+    z-index: 1;
+    }
+ 
+ 
+ /*                                ----   Body  CSS   -----                   */
+ 
+ 
+ 
+   .body-title {
+      position: absolute;
+      top: 600px;
+      color:black;
+      border-width: 1px;
+      padding-left: 100px;
+      font-size: 50px;
+      font-family: Fantasy, copperplate;
+      z-index: 100;
+      }
+
+ 
+ /*                                ----   Wrapper Method   -----                   */
+ #wrapper {
+   box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+   display: grid;
+   grid-auto-rows: minmax(0px, auto);
+   z-index: 3;
+   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+ }
+ 
+ main {
+   padding-left: 2rem;
+   padding-right: 2rem;
+   grid-row: 4 / 5;
+   grid-column: 2 / 8;
+   background-color: #ffffff;
+   z-index: 3;
+ }
+ 
+ 
+ * {box-sizing: border-box;}
+ 
+ nav ul{
+   list-style-type: none;
+ }
+ nav ul li{display: inline;
+ }
+ 
+ 
+ nav ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+ }
+ 
+ nav ul li {width: 100%;}
+ 
+ nav a:hover {background-color: #ba1c21;}
+ 
+ 
+ 
+ /*                   -----------    Buttons   --------------------*/
+ 
+ 
+ 
+ .dropbtn {
+   width: 100%;
+   background-color: #424242;
+   font-size: 20px;
+   border: none;
+   font-family: "Fantasy", copperplate;
+   color: white;
+   opacity: .5;
+   z-index: 500;
+         }
+ 
+ .dropdown {
+   position: relative;
+   display: inline-block;
+   font-size: 15px;
+   text-decoration: none;
+   z-index: 500;
+   }
+ 
+ .dropdown-content {
+  background: white;
+  text-align: left;
+  display: none;
+  font-family: "Fantasy", copperplate;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 500;
+  }
+ 
+ .dropdown-content a {
+  text-align: left;
+  color: black;
+  width: 350px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 500;
+  }
+ 
+ .dropbtn:hover {background-color: red;cursor: pointer;}
+ 
+ .dropdown:hover .dropdown-content {display: block; }
+ 
+ 
+ 
+ /*                                     Media Queries                             */
+ 
+ 
+ @media only screen and (max-width: 1100px){
+   .wrapper{
+       grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+   }
+ }
+   ::selection{
+       float: none;
+       width: 100%;
+       padding-right: 0px;
+       }
+       }
+ 
+ @media screen and (max-width: 600px) {
+   header h1{
+       background-image: none;
+       text-align: center;
+       z-index: 3;
+       }
+   nav{
+       grid-row: 2 / 3;
+       grid-column: 1 / 9;
+       }
+   }
+ 
+
+/*            JavaScript Dictionary               */
+ 
+
+.cssHeader {
+  text-align: center;
+  font-size: 40px;
+  color: #551012;
+}
+
+.grid-main{
+  display:grid;
+  grid-template-columns: 15% 80%      ;
+}
+
+.def-grid {
+  display: grid;
+  grid-template-columns: 20%  50%      ;
+}
+
+.CSS-Name {
+  font-size: 20px;
+  text-align: left;
+  color: rgb(46, 21, 137);
+  font-weight: bold;
+}
+
+.CSS-def {
+  font-size: 20px;
+  text-align: left;
+  color: rgb(131, 56, 15);
+}
+
+.btn {
+  width: 80%;
+  font-size: 25px;
+  background-color: #551012;; 
+  color: rgb(245, 240, 240);
+  margin-top: 5px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-radius: 13px;
+}
+

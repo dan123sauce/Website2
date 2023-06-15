@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array indexOf()</title>
+    <link type="text/css" rel="stylesheet" href="1-0-1_Defination.css">
+
+</head>
+<body>
+  <div class="container">
+    <p class="title">JavaScript Array indexOf()</h1>
+    
+
+                        <!--            Defination      -->                      
+    <p class="paragraph"><br>Defination:</p>
+    <p class="defination">* The indexOf() method returns the first index (position) of a specified value. </p>
+    <p class="defination">* The indexOf() method returns -1 if the value is not found.</p>
+    <p class="defination">* The indexOf() method starts at a specified index and searches from left to right </p>
+    <p class="defination">* By default the search starts at the first element and ends at the last.</p>
+    <p class="defination">* Negative start values counts from the last element (but still searches from left to right). </p>
+
+                        <!--            Syntax:     -->                      
+    <p class="paragraph"><br>Syntax:</p>
+    <p class="defination1"> array.indexOf(item, start)</p>
+    <p class="defination1"> - item = The value to search for. </p>
+    <p class="defination1"> - start = Where to start the search. Default value is 0. Negative values start the search from the end of the array.</p>
+
+                      <!--            Examples:          -->
+    <br><p class="paragraph"> Examples:   </p>
+
+    <div class="example">     
+    <p class="sub-paragraph">const fruits = ["Banana", "Orange", "Apple", "Mango"];</p>
+    <a class="explain"> - Find the first index of "Apple": 2 </a>  
+    <p class="sub-paragraph">let index = fruits.indexOf("Apple");</p><a></a>
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">const fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];</p>
+    <a class="explain"> - Start at index 3: 4</a>  
+    <p class="sub-paragraph">let index = fruits.indexOf("Apple", 3);</p><a></a> 
+
+    <a>-------------------------------------------------------------------------- </a>
+    <a>-------------------------------------------------------------------------- </a>
+    <p class="sub-paragraph">const fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];</p>
+    <a class="explain"> - Find the first index of "Apple", starting from the last element: 4  </a> 
+    <p class="sub-paragraph">let index = fruits.indexOf("Apple", -1);</p><a></a> 
+  </div> 
+  </div> 
+</div>  
+
+
+
+  <script 
+    src="1-1-1 Definations.js">
+  </script>
+</body>
+</html>
+
