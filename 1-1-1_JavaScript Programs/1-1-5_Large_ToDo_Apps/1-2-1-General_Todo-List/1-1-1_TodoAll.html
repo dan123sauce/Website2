@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Show All To-Dos</h1>
+
+<a>Itmes in Today To-Do's - </a><a id="todayTodo"> </a>
+
+
+<script>
+todayTodo()
+
+
+function todayTodo() {
+  var x = JSON.parse(localStorage.todayTodo).length;
+  document.getElementById("todayTodo").innerHTML = x;
+}
+
+function todayTodo() {
+  var x = JSON.parse(localStorage.todayTodo).length;
+  document.getElementById("todayTodo").innerHTML = x;
+}
+
+</script>
+</body>
+</html>

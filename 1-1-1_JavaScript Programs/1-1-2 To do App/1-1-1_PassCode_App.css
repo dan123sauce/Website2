@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin-top: 5%;
+  background-image: url("../../0-1-1 Images/postit-scrabble-to-do-todo.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: 85%; /* Resize the background image to cover the entire container */
+  height: 850px;
+  background-position: center; /* Center the image */
+  background-color: #010722;
+
+}
+.container{
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  border-radius: 10px;
+}
+
+.todoList{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 565px;
+
+}
+.deleteTask{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: orangered;
+  color: #ffffff;
+  outline: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pText{text-transform: capitalize;}
+
+.inputvalue{
+  display: flex;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.inputVal{
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 5px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  background-color: transparent;
+
+}
+.btn{
+  width: 100px;
+  background: #097d56;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline-style: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px #03110c;;
+  
+}
+.clearTask{
+  position: absolute;
+ bottom: 0%;
+ left: 1%;
+ background: transparent;
+ color: #4b1414;
+ width: 28%;
+ height: 35px;
+ border-radius: 5px;
+ text-transform: capitalize;
+ font-weight: bold;
+ cursor: pointer;
+ outline-style: none;
+}

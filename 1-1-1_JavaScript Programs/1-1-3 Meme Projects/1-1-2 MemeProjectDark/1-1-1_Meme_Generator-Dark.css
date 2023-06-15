@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(rgba(144, 121, 166, 0.922), rgb(67, 2, 2));    
+    height: 100vh;
+}
+
+.meme-generator {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.meme-generator img {
+    height: 430px;
+    object-fit: cover; /*The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video> , should be resized to fit its container ...*/
+}
+
+.meme-generator .generate-meme-btn {
+    padding: 8px 20px; /* 8px top and bottom 20px left and right*/
+    border: none;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    background-color: white;
+    margin:24px 0; /*24px top and bottom margin*/
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 400ms ease; /*Sets the transistion when going to hover*/
+} 
+
+.meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px; /* 8px top and bottom 36px left and right*/
+    border-left: 8px solid grey;
+    border-right: 8px solid grey;
+    letter-spacing: 3px; /*spaces the letters*/
+}
+
+.meme-generator .meme-author {
+    margin: 8px;
+}

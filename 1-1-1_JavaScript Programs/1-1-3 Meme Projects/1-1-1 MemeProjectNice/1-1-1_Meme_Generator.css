@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgba(249, 242, 242, 0.922), rgb(8, 75, 48));    
+    height: 100vh;
+    background-image: url("../../../0-1-1 Images/Meme-background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100%; 
+    background-position: center; /* Center the image */
+}
+
+.meme-generator {
+    margin-top: 10%;
+    font-family: cursive;
+    text-align: center;
+}
+
+.meme-generator img {
+    height: 430px;
+    object-fit: cover; /*The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video> , should be resized to fit its container ...*/
+}
+
+.meme-generator .generate-meme-btn {
+    font-family: cursive;
+    padding: 8px 20px; /* 8px top and bottom 20px left and right*/
+    border: none;
+    border-left: 8px solid rgb(241, 188, 14);
+    border-right: 8px solid rgb(241, 188, 14);
+    background-color: rgb(246, 222, 6);
+    margin:24px 0; /*24px top and bottom margin*/
+    color: rgb(11, 10, 10);
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 400ms ease; /*Sets the transistion when going to hover*/
+} 
+
+.meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px; /* 8px top and bottom 36px left and right*/
+    border-left: 22px solid rgb(241, 188, 14);
+    border-right: 22px solid rgb(241, 188, 14);
+    letter-spacing: 3px; /*spaces the letters*/
+}
+
+.meme-generator .meme-author {
+    margin: 8px;
+}

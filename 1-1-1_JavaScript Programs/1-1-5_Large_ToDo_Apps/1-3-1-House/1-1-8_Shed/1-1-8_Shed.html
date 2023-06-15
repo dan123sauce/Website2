@@ -1,0 +1,113 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shed</title>
+    <link type="text/css" rel="stylesheet" href="../0-1-1 House CSS/0-1-1 House CSS.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+    
+<body>
+  <header>
+    <a class="icon" href="../../1-2-1-General_Todo-List/1-1-3 Show All Items in Todo/1-1-1 listAll_toDo.html"><img src="../../../../0-1-1 Images/back1.webp"> </a>
+    <a class="t">Shed To-Do :</a>
+  </header>
+  <div id="wrapper">
+    <nav>
+      <ul>
+        <li></li>
+        <li>
+            <div class="dropdown">
+              <button class="dropbtn">Buy List</button>
+              <div class="dropdown-content">
+                <a href="../../1-2-0-Buy_List/1-2-0-Buy_List.html"> Buy List </a>
+
+            </div>
+          </div>
+        </li>
+        <li>
+            <div class="dropdown">
+              <button class="dropbtn">Today/General Todo List</button>
+              <div class="dropdown-content">
+                <a href="../../1-2-1-General_Todo-List/1-1-1 List Today ToDo/1-1-1 List Today ToDo.html"> Today</a>
+                <a href="../../1-2-1-General_Todo-List/1-1-2 General ToDo/1-2-0-General-Todo.html">General</a>           
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">House</button>
+            <div class="dropdown-content">
+              <a href="../../1-3-1-House/1-1-1 Interior/1-1-1_houseInterior.html"> Interior </a>
+              <a href="../../1-3-1-House/1-1-2 Gym/1-1-2 Gym.html">Gym</a>
+              <a href="../../1-3-1-House/1-1-3 largeGarage/1-1-3 largeGarage.html">Large Garage</a>
+              <a href="../../1-3-1-House/1-1-4 frontYardAdobe/1-1-4 frontYardAdobe.html">Front Yard Adobe</a>
+              <a href="../../1-3-1-House/1-1-5 frontYardRedMountainDr/1-1-5 frontYardRedMountainDr.html">Front Yard Red Mountain Drive</a>
+              <a href="../../1-3-1-House/1-1-6 Backyard/1-1-6 Backyard.html">Backyard</a>
+              <a href="../../1-3-1-House/1-1-7_OutdoorKitchen/1-1-7_OutdoorKitchen.html">Outdoor Kitchen</a>
+              <a href="../../1-3-1-House/1-1-8_Shed/1-1-8_Shed.html">Shed</a>
+
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Autos</button>
+          <div class="dropdown-content">
+            <a href="../../1-4-1_Veichles/1-1-1_Ebike/1-1-1_Ebike.html"> Ebike</a>
+            <a href="../../1-4-1_Veichles/1-1-2_SXS/1-1-2_SXS.html"> SxS </a>
+            <a href="../../1-4-1_Veichles/1-1-3_Ram/1-1-3_Ram.html"> Dodge Ram </a>
+            <a href="../../1-4-1_Veichles/1-1-4_F150/1-1-4_F150.html"> Ford F-150 </a>
+            <a href="../../1-4-1_Veichles/1-1-5_F250/1-1-5_F250.html"> Ford F-250 </a>
+            <a href="../../1-4-1_Veichles/1-1-6_Hummer/1-1-6_Hummer.html"> Hummer </a>
+            <a href="../../1-4-1_Veichles/1-1-7_Challenger/1-1-7_Challenger.html"> Challenger </a>
+            <a href="../../1-4-1_Veichles/1-1-8_Mustang/1-1-8_Mustang.html"> Mustang </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="dropdown">
+        <button class="dropbtn">Programming</button>
+        <div class="dropdown-content">
+          <a href="../../1-5-1 Programming/1-1-1_WebPage/1-1-1_WebPage.html"> WebPage</a>
+          <a href="../../1-5-1 Programming/1-1-2_Python/1-1-2_Python.html"> Python</a>
+      </div>
+    </div>
+  </li>
+  </div> 
+  
+  
+
+  <div class="todoList">
+
+  <input class="input1" type="text" placeholder = "Enter new to-do">
+  <p><input class="input2" type="text" placeholder="Enter Category" list="categoryList" ></p>
+  <datalist id="categoryList">
+    <option value="personal"></option>
+    <option value="work"></option>
+  </datalist>
+  <p><input type="date" id="dateInput"></p>
+  <p><input type="time" id="timeInput"></p>
+  <button class="addBtn" id="addBtn"  >Adds</button>
+  <ul></ul>
+  <table id="todoTable">
+    <tr>
+      <td class="checkbox"></td>
+      <td class="date"><select id="categoryFilter"></select></td>
+      <td class="time">Time</td>
+      <td class="todo">General..todo</td>
+
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+
+<script src="1-1-8_Shed.js"></script>
+
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+    background-color: red;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid black;
+    width: 60px;
+    height:52px;
+    font-size: 25px;   
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+     
+}
+
+.btn-yellow {background: orange;}
+.btn-grey {background: rgb(193, 190, 190);}
+.btn-clear {background:green;}
+.btn-equal {background: red;}
+

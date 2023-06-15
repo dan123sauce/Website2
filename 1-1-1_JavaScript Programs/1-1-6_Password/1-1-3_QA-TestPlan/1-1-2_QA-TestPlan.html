@@ -1,0 +1,1999 @@
+<!--        https://www.youtube.com/watch?v=YMBGvvE47I8  
+            https://github.com/kaizhelam/password-validation/blob/main/index.html
+
+            Given - precondition
+            and
+            when - user action / user is inputinging / clicks 
+            then - expected outcome
+
+       -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation asdf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="1-1-2_QA-TestPlan.css">
+
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <a class="icon" href="../1-1-1_Program/1-1-6_Password.html"><img src="../../../0-1-1 Images/back1.webp"> </a>
+      <a class="t">QA Test PLan</a>
+    </header>
+
+      <nav>
+        <ul>
+          <li></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Test Plan</button>
+              <div class="dropdown-content">
+                <a href="../1-1-2_QA-TestGrid/1-1-2_QA-TestGrid.html"> Test Plan Grid </a>
+                <a href="../1-1-3_QA-TestPlan/1-1-2_QA-TestPlan.html"> QA - Test Plan</a>
+            </div>
+          </div>
+        </li>
+  
+          <li>
+              <div class="dropdown">
+                <button class="dropbtn">Programs</button>
+                <div class="dropdown-content">
+  
+                  <a href="../../../1-1-1_JavaScript Programs/1-1-2 To do App/1-1-1_PassCode_App.html"> To-Do App </a>
+                  <a href="../../../1-1-1_JavaScript Programs/1-1-5_Large_ToDo_Apps/1-2-1-General_Todo-List/1-1-1 List Today ToDo/1-1-1 List Today ToDo.html"> Large To-Do Lists </a>
+                  <a href="../../../1-1-1_JavaScript Programs/1-1-4 Calculator/1-1-1_Calculator.html">Calculator</a>
+              </div>
+            </div>
+          </li>
+          <li>
+              <div class="dropdown">
+                <button class="dropbtn">Games</button>
+                <div class="dropdown-content">
+                  <a href="../../../1-1-1_JavaScript Programs/1-1-3 Meme Projects/1-1-1 MemeProjectNice/1-1-1_Meme_Generator.html">Meme Genator</a>
+                  <a href="../../../1-1-2_JavaScript_Games/1-1-2_Rock_Paper_Scissors/1-1-4_Rock_Paper_Scissors_KeyBoard.html">Rock, Paper, Scissors</a>
+                  <a href="../../../1-1-2_JavaScript_Games/1-1-1_Tick-Tak-Toe/1-1-1 Tick-Tak-Toe.html">Tic-Tac-Toe </a>
+  
+                  <a href="../../../1-1-2_JavaScript_Games/1-1-3_Snake/1-0-1_Snake_Main_Menu/1-0-1_Snake_Main_Menu.html">Snake Game</a>
+  
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Developer Tools</button>
+              <div class="dropdown-content">
+                <a href="../../../1-1-3_Developer_Tools/1-1-2_CSS-Dictionary/1-1-2_Pages/1-2-12 Pages-AlignAnimation.html">CSS Dictionary</a>
+                <a href="../../../1-1-3_Developer_Tools/1-1-1_JavaScript_Dictionary/1-1-1 Main Menu Definations/1-1-1_Main_Menu-Definations.html">JavaScript Dictionary</a>
+            </div>
+          </div>
+        </li>
+  
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Web Pages</button>
+              <div class="dropdown-content">
+                <a href="../../../1-1-4_My_Web_Page/9-1-4_MotorSports/0-1-1.HomePage/1-1-1.MotorSports_HomePage.html">MotorSports</a>
+                <a href="../../1-2-1_WebDesign/1-1-1_WebDesign.html">Webpage Options</a>
+                <a href="../../../1-1-4_My_Web_Page/3-1-1_Art_examples/1-1-1_Art_Main-Menu/1-1-1_Art_Main-Menu.html">Art Web Page Examples</a>
+                <a href="../../../1-1-4_My_Web_Page/1-1-1_HandyMan_Webpage/0-0-1_Main-Menu/1-1-1_HandyMan_Main-Menu.html">HandyMan Web Page Examples</a>
+                <a href="../../../1-1-4_My_Web_Page/1-1-6_Craft_Ideas/1-Home_Page/1.Craft_Home_Page.html">Craft Web Page Example</a>
+              </div>
+          </div>
+        </li>
+    </div>   
+      <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                          Scenaro 1
+               ------------------------------------------------------------------------------------------------------------------   
+              -->
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 1 -</a>  Click 'Sign-Up' with 
+            blank Username, 
+            Email, 
+            Password,
+             and Password again</p>
+          <br>
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+            1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+            <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+       
+            <p class="step1"><a class="condition">When </a> a user clicks 'Sign-Up'</p>
+            <p class="step1"><a class="condition">Then </a> there will be no change in the Password Rules fields </p>
+            <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+            <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+            <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+            <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+            <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+            <p class="step1"><a class="condition">And </a> 'Password is required' error message will appear under the red border with red text </p>
+            <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+            <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+        
+        
+          </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+            <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                          Scenaro 2
+               ------------------------------------------------------------------------------------------------------------------   
+              -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <br>
+          <p class="step"><a class="condition">Scenaro 2 - </a>  Click 'Sign-Up' with the user 
+            entering a name into Username field - 
+             Email, Password, and Password again fields are blank</p>
+
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+            1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+            <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+
+          <p class="step1"><a class="condition">When </a> a user enters a name in the Username field</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-Up'</p>
+          <p class="step1"><a class="condition">Then </a> there will be no change in the Password Rules fields </p>
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 3
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 3 -</a>  Click 'Sign-Up' with the user 
+            entering an Email into Email field -  
+            Username, Password, and Password again fields are blank</p>
+
+         <br>
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+            1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+            <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+          <p class="step1"><a class="condition">When </a> a user enters an Email in the Email field</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+          <p class="step1"><a class="condition">Then </a> there will be no change in the Password Rules fields </p>
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 4
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 4 - </a>  Click 'Sign-Up' with the user 
+            entering a name and Email into Username and Email fields -  
+            Password, and Password again fields are blank</p>
+
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+            1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+            <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+            <br>
+          <p class="step1"><a class="condition">When </a> a user enters a name in the Username field</p>
+          <p class="step1"><a class="condition">And </a> a user enters an Email in the Email field</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+          <p class="step1"><a class="condition">Then </a> there will be no change in the Password Rules fields </p>
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 5
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 5 - </a>Click 'Sign-Up' with 
+            the user entering a password with less than 8 characters,
+            no numerical,
+            no spaces,  
+            or special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+
+          <br>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+  
+
+          <p class="step1"><a class="condition">When </a> a user enters a password with less than 8 
+            with no numbers,,
+            no spaces,  
+            or special characters in the Password field
+            - Username, Email, and Password again fields are blank</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+          
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>        
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 6
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 6 - </a>Click 'Sign-Up' with the user entering User name in the Username field and a password with 
+            less than 8 characters,
+            has no numbers, 
+            no spaces, 
+            no special characters 
+            into the password fields - Email, and Password again fields are blank</p>
+            <br>
+
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+      
+          <p class="step1"><a class="condition">When</a> the user enters a user name in the user field,</p>
+          <p class="step1"><a class="condition">And </a> a user enters a password with 
+            less than 8 with 
+            at least 1 numerical,
+            no spaces,  
+            and no special characters in the Password field'</p>
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>     
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 7
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 7 - </a>Click 'Sign-Up' with the user entering an Email in the Email field, password with 
+            less than 8 characters,
+            has no numerical, 
+            no spaces, 
+            and no special character,
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1">and regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When </a> a user enters an Email in the email filed,
+          <p class="step1"><a class="condition">And </a> and enters a password with 
+            less than 8 characters,
+            has no numerical, 
+            no spaces, 
+            and no special charactes,
+            into the password fields - Username and Password again fields are blank.</p>  
+            
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>     
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 8
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 8 - </a>Click 'Sign-Up' with the user
+            entering a 
+            user name in the Username field, 
+            email in the Email field, 
+            a password with 
+            less than 8 characters,
+            has no number(s) 
+            no spaces, 
+            and no special character(s)
+            into the password fields -  and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1">and regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When </a> a user enters a username in the Username field, email in the Email field, 
+            a password with 
+            less than 8 characters,
+            has no least 1 numerical(s), 
+            no spaces, 
+            and no special character(s)
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn treen </p>
+          <p class="step1"><a class="condition">And </a> 
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>     
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+
+
+
+
+
+      
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 9
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 9 - </a>Click 'Sign-Up' with 
+            the user entering a password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+          <br>
+
+          <p class="step1"><a class="condition">When </a> a user enters a password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+          
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">And </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password characters shows as a dots '.' </p>
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>        
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 10
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 10 - </a>Click 'Sign-Up' with 
+            the user entering a username in the Username field,
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When </a> 
+            a user enters a user in the user field,  
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>     
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 11
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 11 - </a>Click 'Sign-Up' with 
+            the user entering a valid email in the email field,
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When </a> 
+            a user enters a user in the user field,  
+            the user entering a valid email in the email field,
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red  </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 12
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 12 - </a>Click 'Sign-Up' with 
+            the user entering a username in the Username field,
+             entering a valid email in the email field,
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When </a> 
+            the user entering a username in the Username field,
+             entering a valid email in the email field,
+            password with greater than 7 but less than 11 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 13
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 13 - </a>Click 'Sign-Up' with 
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear not under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+       <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 14
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 14 - </a>Click 'Sign-Up' with 
+            username entered in the Username field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username entered in the Username field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+
+  <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 15
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 15 - </a>Click 'Sign-Up' with 
+            Email entered in the Email field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user entered</a> 
+            Email entered in the Email field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red, </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>
+
+
+  <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 16
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 16 - </a>Click 'Sign-Up' with 
+            username entered in the Username field,
+            Email entered in the Email field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user entered</a> 
+            username entered in the Username field,
+            Email entered in the Email field,
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green, </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+      
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 17
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 17 - </a>Click 'Sign-Up' with 
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters  </a> 
+            password with greater than 10 characters,
+            no numerical,
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red  </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 18
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 17 - </a>Click 'Sign-Up' with 
+            username entered in the Username field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username entered in the Username field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red  </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 19
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 19 - </a>Click 'Sign-Up' with 
+            Valid Email entered in the Email field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Valid Email entered in the Email field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green  </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 20
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 20 - </a>Click 'Sign-Up' with 
+            username entered in Username field,
+            Valid Email entered in the Email field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters  </a> 
+            Valid Email entered in the Email field,
+            password with less than 8 characters,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green  </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 21
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 21 - </a>Click 'Sign-Up' with 
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+       <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 22
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 22 - </a>Click 'Sign-Up' with 
+            username in the Username field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username in the Username field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn gren </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+      
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 23
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 23 - </a>Click 'Sign-Up' with 
+            Valid Email in the Email field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Username and Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Valid Email in the Email field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Username and Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn gren </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 24
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 24 - </a>Click 'Sign-Up' with 
+            username in the Username field,
+            Valid Email in the Email field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Password again fields are blank</p>
+          
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username in the Username field,
+            Valid Email in the Email field,
+            Password greater than 7 - Less than 11 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn gren </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>  
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 25
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 25 - </a>Click 'Sign-Up' with 
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Email, Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn gren </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>      
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 26
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 26 - </a>Click 'Sign-Up' with 
+            username entered into the Username field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            sername entered into the Username field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields -  Email, Password again fields are blank</p>
+            
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 27
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 27 - </a>Click 'Sign-Up' with 
+            Valid Email entered into the Email field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Valid Email entered into the Email field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+
+       <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 28
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 28 - </a>Click 'Sign-Up' with 
+            username entered into the 
+            Valid Email entered into the Email field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Username, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username entered into the 
+            Valid Email entered into the Email field,
+            Password greater than 10 Charactors,
+            has at least 1 number(s),
+            no spaces,  
+            and no special characters 
+            into the password fields - Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 29
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 29 - </a>Click 'Sign-Up' with 
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Username, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Username, Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div>   
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 30
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 30 - </a>Click 'Sign-Up' with 
+            username in the Username field,
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Username, Email,  Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username in the Username field,
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Username, Email,  Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will  appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+
+
+
+ <!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 31
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 30 - </a>Click 'Sign-Up' with 
+            username in the Username field,
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Email, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username in the Username field,
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Email, Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn red</p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+
+<!--   ------------------------------------------------------------------------------------------------------------------                                               
+                                                  Scenaro 32
+        ------------------------------------------------------------------------------------------------------------------   
+      -->
+      <p class="step">--------------------------------------------------------------------------------------------------------------------------------------------------------------</p>        
+      <div class="qa-testplan">
+        <div class="scenaro">
+          <p class="step"><a class="condition">Scenaro 30 - </a>Click 'Sign-Up' with 
+            
+            username in the Username field,
+            Valid Email in the Email field
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Email, Password again fields are blank</p>
+          
+          <p class="step1"><a class="condition">Given </a> user has navigated to http://127.0.0.1:5500/1-1-5%20Full%20Web%20Page/
+          1-1-1_JavaScript%20Programs/1-1-6_Password/1-1-1_Program/1-1-6_Password.html </p>
+          <p class="step1"><a class="condition">And </a> regristration form fields are blank</p>  
+
+          <br>
+
+          <p class="step1"><a class="condition">When user enters </a> 
+            username in the Username field,
+            Valid Email in the Email field
+            Password less than 8 Charactors,
+            has no number(s),
+            no spaces,  
+            and has at least one special character(s), 
+            into the password fields - Email, Password again fields are blank</p>
+
+
+          <p class="step1"><a class="condition">And </a> a user clicks 'Sign-up'</p>
+
+          <p class="step1"><a class="condition">Then </a> the 'Length' matches the number of characters the user entered  </p>
+          <p class="step1"><a class="condition">And </a> will not allow user to enter a space </p>
+          <p class="step1"><a class="condition">and </a> the 'Length more than 8.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Length less than 10.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains numerical character.' in the Password Rules will show a red check inside a red circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Contains special character.' in the Password Rules will show a green check inside a green circle  </p>
+          <p class="step1"><a class="condition">And </a> the 'Shouldn't contain spaces.' in the Password Rules will show a green check inside a green circle  </p>
+
+
+          <p class="step1"><a class="condition">And </a> Username border will turn green</p>
+          <p class="step1"><a class="condition">And </a> 'Username is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And</a>  Email border will turn green </p>
+          <p class="step1"><a class="condition">And </a> 'Email is required' error message will not appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Password must be at least 8 characters' error message will appear under the red border with red text </p>
+          <p class="step1"><a class="condition">And </a> Password character(s) shows as a dot '.' </p>
+        t 
+          <p class="step1"><a class="condition">And</a>  Password again border will turn red </p>
+          <p class="step1"><a class="condition">And </a> 'Please confirm your password' error message will appear under the red border with red text </p>
+
+        </div>
+        <div class="pass-fail" >
+          <lable>pass</lable>
+          <input type="checkbox">
+          <a> .... </a>
+          <lable>Fail</lable>
+          <input type="checkbox">
+        </div>  
+      </div> 
+
+
+  </body>
+</html>

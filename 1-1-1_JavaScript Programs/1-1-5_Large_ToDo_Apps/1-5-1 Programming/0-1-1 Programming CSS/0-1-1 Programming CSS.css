@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Brush Script MT', cursive;
+  font-weight: 900;
+  background-color: black;
+  color: rgb(5, 4, 4);
+  /*background-image: url("../../../0-1-1 Images/money3.jpg");*/
+  background-image: linear-gradient(rgb(247, 243, 243), rgb(26, 11, 2));
+  margin-bottom: 34%;
+
+
+
+  background-position:top; 
+
+}
+
+   /*                                ----   Page Setup  -----                   */
+.icon {
+  margin: 20px;
+  height: 50px;
+}
+
+img {height: 50px;}
+
+
+   /*                                ----   Todo List   -----                   */
+
+.todoList {
+  margin: 10px 600px;
+
+ }
+
+.input1 {
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.551);
+  color: rgb(15, 14, 14);
+  padding: 0px 150px 0px 150px;
+} 
+
+.input2 {
+  font-size: 0px;
+  font-weight: 00;
+  background-color:transparent;
+  color: transparent;
+
+} 
+
+
+.t {
+  color: rgb(8, 8, 9);
+  font-size: 40px;
+  padding-left: 30%;
+  }
+
+.addBtn {
+  background-color: rgb(13, 6, 70);
+  color: white;
+  font-size: 20px;
+  padding: 5px 100px;
+  margin: 5px 200px;
+  cursor: pointer;
+}
+
+   /*                                ----   Todo List   -----                   */
+.strike {
+  text-decoration: line-through;
+  color: rgb(96, 35, 35);
+  ;
+}
+  
+
+
+input:checked + span {
+    text-decoration: line-through;
+    color: rgba(10, 6, 6, 0.811);
+    opacity: .6;
+
+}
+
+.checkbox{padding: 0px 10px 0px 10px;}
+
+.date { padding: 0px 60px 0px 60px; color: white;}  
+.time {padding: 0px 20px 0px 20px; color: white;}  
+.todo {padding: 0px 50px 0px 20px; color: white;}  
+
+td{
+    border: 1px solid rgb(54, 15, 15);
+    color: rgb(9, 3, 3);
+  
+
+}
+
+ /*                                ----   Navigation   -----                   */
+ 
+ 
+   nav {
+     font-weight: bold;
+     grid-row: 2/3;
+     grid-column: 1/-1;
+     position: sticky;
+     top: 0;
+     background-color: transparent;
+     z-index: 100;
+     }
+ 
+  .navbar {
+      overflow: hidden;
+      background-color: rgb(127, 8, 8);
+      color: rgb(177, 33, 33);
+ 
+      padding-left: 1500px;
+      }
+ 
+ .navbar a:hover, .dropdown:hover .dropbtn {
+     background-color: red;
+     }
+ 
+ 
+ /*                                ----   Wrapper Method   -----                   */
+ #wrapper {
+   box-shadow: 0px 3px 3px rgba(110, 4, 4, 0.3);
+   display: grid;
+   grid-auto-rows: minmax(0px, auto);
+   z-index: 3;
+   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+ }
+ 
+ main {
+   padding-left: 2rem;
+   padding-right: 2rem;
+   grid-row: 4 / 5;
+   grid-column: 2 / 8;
+   background-color: #070606;
+   z-index: 3;
+ }
+ 
+ nav ul{
+   list-style-type: none;
+ }
+ nav ul li{display: inline;
+ }
+ 
+ 
+ nav ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+ }
+ 
+ nav ul li {width: 100%;}
+ 
+ nav a:hover {background-color: #ba1c21;}
+ 
+ 
+ 
+ /*                   -----------    Buttons   --------------------*/
+ 
+ 
+ 
+ .dropbtn {
+   width: 100%;
+   background-color: transparent;
+   font-size: 20px;
+   border: none;
+   color: rgb(181, 180, 196);
+   font-weight: 900;
+   z-index: 500;
+         }
+ 
+ .dropdown {
+   position: relative;
+   display: inline-block;
+   font-size: 15px;
+   text-decoration: none;
+   z-index: 500;
+   }
+ 
+ .dropdown-content {
+  background: white;
+  text-align: left;
+  display: none;
+  font-family: "Fantasy", copperplate;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 500;
+  }
+ 
+ .dropdown-content a {
+  text-align: left;
+  color: black;
+  width: 350px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 500;
+  }
+ 
+  .btnDiv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+    
+  .left {
+    display: grid;
+    grid-template-columns: 30% 50% 0% ;
+
+    
+  }
+  .btn {
+    margin-top: 20%;
+    text-align: center;
+    color:white);
+    font-size: 40px;
+    border: solid;
+    background-color: #5d0909eb;
+ 
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  .btn2 {
+    margin-top: 20%;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    border: solid;
+
+
+    border-radius: 25px;
+  }
+
+
+ .dropbtn:hover {background-color: red;cursor: pointer;}
+ .dropdown:hover .dropdown-content {display: block; }
+ 
+ 
+ 
+ /*                                     Media Queries                             */
+ 
+ 
+ @media only screen and (max-width: 1100px){
+   .wrapper{
+       grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+   }
+ }
+   ::selection{
+       float: none;
+       width: 100%;
+       padding-right: 0px;
+       }
+       
+ 
+ @media screen and (max-width: 600px) {
+   header h1{
+       background-image: none;
+       text-align: center;
+       z-index: 3;
+       }
+   nav{
+       grid-row: 2 / 3;
+       grid-column: 1 / 9;
+       }
+   }
+ 
+ /*                                     Media Queries                             */
+
+ span {color: rgb(10, 8, 8);}
+.hrow {
+    font-weight:bold;
+    color: #aba7a7;
+    font-size: 20px;
+    }
+    .hrow td{
+    padding-top: 40px;
+    width: 200px;
+    }
+
+
+  
+
+
+.localTime {
+    padding: 50px;
+    margin-left: 40%;
+    color: #ffffff;
+    font-size: 30px;
+}    
+
+#localTime{padding-left: 10px; font-size: 30px;color: red;}
