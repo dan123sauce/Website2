@@ -1,0 +1,90 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;              /*  initialized flexbox*/
+    justify-content: center;    /*  center everything from left to right*/
+    align-items: center;      /*  center everythiing from top to bottom*/
+    height: 100vh;              /*  100% of viewing height*/
+    flex-direction: column;     /*  items stack over each other*/
+    background-image: linear-gradient(red, yellow);    
+}
+
+#gameboard {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;              /*  initialized flexbox*/
+    flex-wrap: wrap;            /*  So the game peices will wrap*/
+    
+    box-shadow: 40px 40px 30px rgba(0, 0, 0, 0.925);
+    
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+
+    border: solid 2px black;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(243, 241, 241), rgb(189, 189, 184));  
+}
+
+.circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+}
+
+.cross {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.cross:before, .cross:after {
+    content: '';
+    position: absolute;
+    background-color: rgb(255, 136, 0);
+}
+
+.cross:before {
+    left:50%;
+    width: 30%;
+    margin-left: -15%;
+    height: 100%;
+}
+
+.cross:after {
+    top:50%;
+    height: 30%;
+    margin-top: -15%;
+    width: 100%;
+    background-color: red;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+a {
+    font-size: 20px;
+    width: 150px;
+    background-image: linear-gradient(rgb(243, 241, 241), rgb(189, 189, 184));  
+    border-color: black;
+    border: 5px;
+}

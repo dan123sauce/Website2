@@ -1,0 +1,103 @@
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url("snake-pass-key-art-no-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+
+  }
+  
+.title{
+    padding-top: 50px;
+    color: rgb(113, 60, 6);
+    font-family: cursive;
+    font-size: 100px;
+    display: flex;              /*  initialized flexbox*/
+    justify-content: center;    /*  center everything from left to right*/
+    font-weight: 900;
+    text-shadow: 14px 14px 30px rgba(181, 133, 19, 0.925);  
+}
+
+.space {
+  height:10px;
+}
+
+
+
+
+.levels {
+  padding: 10px;
+  padding-right: 80px;
+  text-align: center;
+
+  border: solid;
+  border-color: black;
+  border-radius: 25px;
+  color:black;
+  background-color:rgb(173, 167, 162);
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 800px;
+  margin-bottom: 30px;
+  opacity: .8;
+  font-family: cursive;
+}
+
+.level2 {
+  padding: 10px;
+  padding-right: 40px;
+  text-align: center;
+
+  border: solid;
+  border-color: black;
+  border-radius: 25px;
+  color:black;
+  background-color:rgb(173, 167, 162);
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 800px;
+  margin-bottom: 30px;
+  opacity: .8;
+  font-family: cursive;
+}
+
+.level3 {
+  padding: 10px;
+  padding-right: 200px;
+  border: solid;
+  border-color: black;
+  border-radius: 25px;
+  color:black;
+  background-color:rgb(173, 167, 162);
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 800px;
+  margin-bottom: 30px;
+  opacity: .8;
+  font-family: cursive;
+}
+
+.start {
+  background-color:rgb(113, 60, 6);
+  border-radius: 25px;
+  font-size: 50px;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+
+
+  
+  .score {
+    color: rgb(83, 66, 5);
+    font-size: 50px;
+    display: flex;              /*  initialized flexbox*/
+    justify-content: center;    /*  center everything from left to right*/
+    margin-bottom: 60px;
+  }
+
+

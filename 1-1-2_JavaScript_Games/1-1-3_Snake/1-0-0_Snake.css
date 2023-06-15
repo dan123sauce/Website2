@@ -1,0 +1,71 @@
+
+
+
+body, html {
+    background-color: ;
+
+    margin: 0;
+    padding: 0;
+    background-image: url("snake-pass-key-art-no-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 900px;
+
+  }
+  
+.title{
+    padding-top: 50px;
+    color: rgb(113, 60, 6);
+    font-family: cursive;
+    font-size: 100px;
+    display: flex;              /*  initialized flexbox*/
+    justify-content: center;    /*  center everything from left to right*/
+    font-weight: 900;
+    text-shadow: 14px 14px 30px rgba(181, 133, 19, 0.925);
+    
+    
+}
+
+.start {
+  background-color:rgb(113, 60, 6);
+  border-radius: 25px;
+  font-size: 50px;
+  margin-left: 750px;
+  margin-top: 50px;
+
+}
+
+.grid {
+    padding-top: 90px;
+    padding-left: 90px;
+    width: 1550px;
+    height: 432px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .score {
+    color: rgb(83, 66, 5);
+    font-size: 50px;
+    display: flex;              /*  initialized flexbox*/
+    justify-content: center;    /*  center everything from left to right*/
+
+  }
+
+  .grid div {
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-color: rgb(208, 147, 7);
+    border-width: .055px;
+
+  }
+  
+  .snake {
+    background-color: rgb(38, 255, 0);
+  }
+  
+  .apple {
+    background-color: rgb(247, 58, 10);
+  }
